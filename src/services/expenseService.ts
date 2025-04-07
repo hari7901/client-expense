@@ -3,7 +3,7 @@ import { Expense } from "../types/expense";
 
 // Use environment variable with a fallback
 const API_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:8000/api/expenses";
+   "https://expense-app-rust.vercel.app/";
 
 // Create an axios instance with base configuration
 const axiosInstance = axios.create({
