@@ -8,10 +8,12 @@ const API_URL =
 // Create an axios instance with base configuration
 const axiosInstance = axios.create({
   baseURL: API_URL,
+   withCredentials: true,
   timeout: 15000, // 10 seconds timeout
   headers: {
     'Content-Type': "application/json",
     'Accept': "application/json",
+   'Access-Control-Allow-Origin': 'https://client-expense-aqk8.vercel.app'
   },
 });
 
