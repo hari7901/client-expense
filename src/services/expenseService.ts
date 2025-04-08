@@ -3,7 +3,7 @@ import { Expense } from "../types/expense";
 
 // Use environment variable with a fallback
 const API_URL =
-   "https://expense-app-rust.vercel.app/api/expenses";
+   "https://expense-app2-2.onrender.com/api/expenses";
 
 // Create an axios instance with base configuration
 const axiosInstance = axios.create({
@@ -13,7 +13,7 @@ const axiosInstance = axios.create({
   headers: {
     'Content-Type': "application/json",
     'Accept': "application/json",
-   'Access-Control-Allow-Origin': 'https://client-expense-aqk8.vercel.app'
+   'Access-Control-Allow-Origin': 'https://expense-app2-2.onrender.com/'
   },
 });
 
