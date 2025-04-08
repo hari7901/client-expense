@@ -8,12 +8,11 @@ const API_URL =
 // Create an axios instance with base configuration
 const axiosInstance = axios.create({
   baseURL: API_URL,
-   withCredentials: true,
+   withCredentials: false,
   timeout: 15000, // 10 seconds timeout
   headers: {
     'Content-Type': "application/json",
     'Accept': "application/json",
-   'Access-Control-Allow-Origin': 'https://expense-app2-2.onrender.com/'
   },
 });
 
