@@ -19,7 +19,7 @@ const CATEGORIES: Expense["category"][] = [
   "Rental",
   "Groceries",
   "Entertainment",
-  "Education"
+  "Education",
   "Travel",
   "Others",
 ];
