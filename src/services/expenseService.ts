@@ -9,7 +9,7 @@ const API_URL =
 const axiosInstance = axios.create({
   baseURL: API_URL,
    withCredentials: false,
-  timeout: 15000, // 10 seconds timeout
+  timeout: 30000, // 10 seconds timeout
   headers: {
     'Content-Type': "application/json",
     'Accept': "application/json",
